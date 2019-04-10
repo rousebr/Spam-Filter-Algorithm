@@ -6,7 +6,7 @@
 getwd()
 
 set.seed(2)
-spambase <- read.csv("~/Desktop/Stat 702/spambase/spambase.csv")
+spambase <- read.csv("~/Desktop/Stat 702/spambase/Spam Data.csv")
 names(spambase)=c("word_freq_make","word_freq_address","word_freq_all","word_freq_3d","word_freq_our","word_freq_over",
     "word_freq_remove","word_freq_internet","word_freq_order",
     "word_freq_mail","word_freq_receive","word_freq_will","word_freq_people","word_freq_report","word_freq_addresses","word_freq_free","word_freq_business",
